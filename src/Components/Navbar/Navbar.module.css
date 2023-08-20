@@ -1,0 +1,78 @@
+.Navbar{
+    width: 100vw;
+    height: 8vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.MenuControls{
+    height: 8vh;
+}
+
+.MenuBtn{
+    display: none;
+    margin-right: 4px;
+}
+
+.MenuBtn>div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.Menu{
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+}
+
+.Logo{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    height: 8vh;
+    display: flex;
+}
+
+.Links{
+    /* border: 1px solid black; */
+    box-sizing: border-box;   
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 480px) {
+    .Navbar{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .MenuControls{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #acacaa;
+        height: 8vh;
+    }
+
+    .MenuBtn{
+        display: inline-block;
+    }
+
+    .Logo{
+        height: 8vh;
+        width: 30%;
+    }
+
+    .Links{
+        flex-direction: column;
+        height: 92vh;
+        justify-content: space-evenly;
+    }
+}

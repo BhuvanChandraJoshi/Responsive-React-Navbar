@@ -1,0 +1,16 @@
+.NavLink{
+  display: block;
+  border: 1px solid black;
+  width: 80px;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 480px){
+  .NavLink{
+    width: 100%;
+  }
+}
+
